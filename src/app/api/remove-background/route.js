@@ -69,6 +69,9 @@ export async function POST(request) {
     // console.log(file);
     return NextResponse.json({ Message: "Success", status: 201, dataURL });
   } catch (error) {
-    return NextResponse.json({ error });
+    return NextResponse.json({
+      error,
+      type: "While removing background image",
+    });
   }
 }
