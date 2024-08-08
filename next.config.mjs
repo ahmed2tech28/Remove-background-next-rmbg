@@ -8,6 +8,7 @@ const nextConfig = {
     }
     return config;
   },
+  distDir: "dist",
 };
 
 export default nextConfig;

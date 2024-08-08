@@ -12,7 +12,7 @@ function generateDailyChangingNumber() {
 
   // Optionally, apply a modulo operation to keep the number within a certain range
   // For example, to keep it within the range 0-9999
-  const uniqueNumber = millisecondsSinceStartOfDay % 10000;
+  const uniqueNumber = millisecondsSinceStartOfDay;
 
   return uniqueNumber;
 }
